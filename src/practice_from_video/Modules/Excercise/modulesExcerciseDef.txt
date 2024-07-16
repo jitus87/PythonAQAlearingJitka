@@ -1,0 +1,4 @@
+# Create function "find_max" which takes a list and return the largest number of the list
+# Put this function in a separate module
+# Then put it in a module called "utils"
+# Import the "utils" in "solution".py, get the result and print it on terminal
