@@ -1,0 +1,7 @@
+The Package is a container of more modules
+it' s a directory or folder
+
+Project - right click - new - Package directory  "ecommerce" --> creates a Package directory where several modules are stored.
+If a Package directory is created, the __init__.py file is created automatically
+
+See applicatioForPackages1.py and applicatioForPackages2.py where the package directory ecommerce is imported
