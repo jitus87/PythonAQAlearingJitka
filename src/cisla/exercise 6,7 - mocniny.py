@@ -6,8 +6,8 @@ try:
 except ValueError:
     print("Toto nie je cislo!!")
 else:
-# math operation
-    vysledok1 = pow(cislo, mocnina)
+# built-in operation
+    #vysledok1 = pow(cislo, mocnina)
 # my solution
     if cislo == 0 & mocnina == 0:
         vysledok2 = 1
@@ -16,10 +16,13 @@ else:
         if mocnina > 0:
             for i in range(1, mocnina):
                 vysledok2 = vysledok2*cislo
+                # vypiseme kazdu mocninu od 2 do zadanej
+                print(f"Mocnina {i+1} z cisla {cislo} je: {vysledok2}")
         else:
             predvysledok = cislo
             for i in range(1, abs(mocnina)):
                 predvysledok = predvysledok * cislo
             vysledok2 = 1/predvysledok
+            print(f"Mocnina {i} z cisla {cislo} je: {vysledok2}")
 
-    print(f"Vysledok je: {vysledok1} co je to iste ako {vysledok2}")
+    print(f"Vysledok je: {vysledok2}")
