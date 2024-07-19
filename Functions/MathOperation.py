@@ -20,3 +20,14 @@ def is_prime(num):
             return False
         i += 6
     return True
+
+
+def find_middle_char(string):
+    length = len(string)
+    if not is_pair(length):
+        middle_index = length // 2
+        middle_index2 = middle_index
+    else:
+        middle_index = (length // 2) - 1
+        middle_index2 = length // 2
+    return middle_index, middle_index2
