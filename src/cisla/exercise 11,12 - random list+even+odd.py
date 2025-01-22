@@ -1,4 +1,4 @@
-# vytvoris pole o velkosti 10 prvkov, do ktoreho pomocou random funkcie vlozis cele cisla od 1 po 1000 a nasledne urcis ci dane cisla su parne alebo neparne;
+    # vytvoris pole o velkosti 10 prvkov, do ktoreho pomocou random funkcie vlozis cele cisla od 1 po 1000 a nasledne urcis ci dane cisla su parne alebo neparne;
 # vytvoris pole o velkosti 10 prvkov, do ktoreho pomocou random funkcie vlozis cele cisla od 1 po 1000 a nasledne urcis ci dane su prvocisla alebo nie su prvocisla;
 
 import random
